@@ -119,13 +119,21 @@ footer {
     border-radius: 50%;
     background-color: mediumaquamarine;
 }
-#fbicon{
+a #fbicon{
     display: flex;
     border: none;
     background-color: none;
     margin: 10px;
 }
-#fbicon:hover{
+a #fbicon:hover{
     border: none;
-    background-color: none;
+    background: none;
+}
+
+@media(max-width: 800px;){
+
+}
+
+@media(max-width: 500px;){
+
 }
