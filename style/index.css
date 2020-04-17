@@ -20,9 +20,8 @@ font: inherit;
 vertical-align: baseline;  
 }
 html{
-    font-size: 10px;
+    font-size: 62.5%;
 }
-
 h1 {
     font-size: 10rem;
     margin: 25px;
@@ -76,7 +75,6 @@ header {
 h2 {
     font-size: 6rem;
     margin-left: 100px;
-    padding: 10px;
 }
 #button1{
     display: flex;
@@ -103,23 +101,24 @@ p{
     display: flex;
     justify-content: space-evenly;
     padding: 3px;
-    width: 100%;
+    width: 
     margin: 20px;
 }
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgba(128, 128, 128, 0.603);
     padding: 100px;
 }
 .footer-note{
-    display: flex;
     font-size: 6.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 #button2{
-    display: flex;
     justify-content: center;
     align-items: center;
     border: 3px solid black;
