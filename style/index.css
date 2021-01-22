@@ -39,6 +39,7 @@ a {
     border: 3px solid black;
     border-radius: 50%;
     display: flex;
+    margin-right: 1rem;
     width: 100px;
     Height: 35px;
     align-items: center;
@@ -101,7 +102,6 @@ p{
     display: flex;
     justify-content: space-evenly;
     padding: 3px;
-    width: 
     margin: 20px;
 }
 footer {
@@ -281,6 +281,10 @@ footer {
         flex-direction: column;
         align-items: center;
         padding: 0px;
+    }
+
+    img {
+        margin-bottom: 1rem;
     }
 
     footer {
